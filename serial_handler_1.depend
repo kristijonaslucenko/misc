@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1456490293 source:/home/kristijonas/Documents/serial_handler_1/main.c
+1456498995 source:/home/kristijonas/Documents/serial_handler_1/main.c
 	<sys/types.h>
 	<sys/stat.h>
 	<fcntl.h>
@@ -8,6 +8,7 @@
 	<stdlib.h>
 	<serial.h>
 	<receiveFrame.h>
+	<packetLogger.h>
 
 1456474941 source:/home/kristijonas/Documents/serial_handler_1/serial.c
 	<sys/types.h>
@@ -20,20 +21,43 @@
 	<unistd.h>
 	<serial_def.h>
 
-1456490211 /home/kristijonas/Documents/serial_handler_1/include/serial_def.h
+1456492654 /home/kristijonas/Documents/serial_handler_1/include/serial_def.h
 
 1456411506 /home/kristijonas/Documents/serial_handler_1/include/serial.h
 	<stdlib.h>
 	<stdio.h>
 	<unistd.h>
 
-1456490246 source:/home/kristijonas/Documents/serial_handler_1/receiveFrame.c
+1456498273 source:/home/kristijonas/Documents/serial_handler_1/receiveFrame.c
 	<stdlib.h>
 	<stdbool.h>
 	<string.h>
 	<serial.h>
 	<serial_def.h>
 
-1456490352 /home/kristijonas/Documents/serial_handler_1/include/receiveFrame.h
+1456495041 /home/kristijonas/Documents/serial_handler_1/include/receiveFrame.h
 	<stdbool.h>
+
+1456498853 source:/home/kristijonas/Documents/serial_handler_1/packetLogger.c
+	<stdio.h>
+
+1456498273 source:/home/kristijonas/Documents/serial_handler_1/packetProcessing.c
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<serial.h>
+	<serial_def.h>
+
+1456474941 source:/home/kristijonas/Documents/serial_handler_1/serialHandler.c
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<unistd.h>
+	<serial_def.h>
+
+1456499051 /home/kristijonas/Documents/serial_handler_1/include/packetLogger.h
 
