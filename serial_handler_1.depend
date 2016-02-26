@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1456490293 source:/home/kristijonas/Documents/serial_handler_1/main.c
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<serial.h>
+	<receiveFrame.h>
+
+1456474941 source:/home/kristijonas/Documents/serial_handler_1/serial.c
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<unistd.h>
+	<serial_def.h>
+
+1456490211 /home/kristijonas/Documents/serial_handler_1/include/serial_def.h
+
+1456411506 /home/kristijonas/Documents/serial_handler_1/include/serial.h
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+
+1456490246 source:/home/kristijonas/Documents/serial_handler_1/receiveFrame.c
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<serial.h>
+	<serial_def.h>
+
+1456490352 /home/kristijonas/Documents/serial_handler_1/include/receiveFrame.h
+	<stdbool.h>
+
